@@ -114,10 +114,8 @@ keys = [10, 3, 30, 5, 28, 4, -30]
 
 for key in keys:
     root = insert(root, key)
-    # print("Inserted:", key)
-    print("AVL-tree:")
-    print(root)
+
 
 print("Max value: ", max_value_node(root).key)
 print("Min value: ", min_value_node(root).key)
-print(sum_keys(root))
+print("Sum of all keys in the tree:", sum_keys(root))
